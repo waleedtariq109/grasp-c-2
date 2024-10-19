@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+// Change back to main
+int mains() {
 	std::cout << "Cin Object, cin.get(), cin.getLine()" << std::endl;
 	/*
 		The cin Objects takes an string input from user without

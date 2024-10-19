@@ -100,6 +100,13 @@ int mains() {
      */
 
     std::cout << "Appending C-Strings and char arrays" << std::endl;
+    const char message1[]{ "World" };
+    const char* message2{ "World" };
+
+    std::cout << "char array '+': " << std::string{ "Hello " } + message1 << std::endl;
+    std::cout << "c-string '+': " << std::string{ "Hello " } + message2 << std::endl;
+    std::cout << "append char array: " << std::string{ "Hello " }.append(message1) << std::endl;
+    std::cout << "append c-string: " << std::string{ "Hello " }.append(message2) << std::endl;
 
     std::cout << std::endl;
     return 0;
