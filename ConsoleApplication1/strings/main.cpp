@@ -25,9 +25,7 @@ int main() {
     // Few ways around string literals Concatenation
     std::cout << std::endl;
     std::string string5{ "Hello World" };  // Make the string one literal
-    std::string string6{
-        "Hello"
-        " World" };  // Put the literals side by side
+    std::string string6{"Hello" " World" };  // Put the literals side by side
     std::string string7{ std::string{"Hello"} + " World" };
     std::string string8{ std::string{"Hello"} + std::string{" World"} };
 
