@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 
-int main() {
+// Change back to main
+int mains() {
     std::cout << std::endl;
 
     // Concatenating two strings: The + operator
