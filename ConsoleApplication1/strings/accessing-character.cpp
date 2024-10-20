@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-int main3() {
+static int accessingCharacters() {
 	std::cout << std::endl;
 
 	std::string str1{ "Hello there" };

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-int main() {
+static int sizeAndCapacity() {
 	std::cout << std::endl;
 
 	std::cout << "std::string size and capacity" << std::endl;
