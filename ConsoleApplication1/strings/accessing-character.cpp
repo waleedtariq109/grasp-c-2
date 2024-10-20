@@ -62,5 +62,20 @@ int main() {
 	std::cout << "str4 modified: " << str4 << std::endl;
 
 	std::cout << std::endl;
+
+	/*
+		std::string::fornt and std::string::back()
+		The front function return the first character of the string
+		and the back function returns the back character f the string
+	*/
+
+	std::string str5{ "The Phoenix king" };
+	char frontChar = str5.front();
+	char backChar = str5.back();
+
+	std::cout << "frontChar in str5: " << frontChar << std::endl;
+	std::cout << "backChar in str5: " << backChar << std::endl;
+
+	std::cout << std::endl;
 	return 0;
 }
