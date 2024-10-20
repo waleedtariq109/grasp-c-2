@@ -47,6 +47,20 @@ int main() {
 	}
 	std::cout << std::endl;
 
+	/*
+		We can also modify the string character using the bracket notation
+		or .at() method
+	*/
+	std::cout << std::endl;
+	std::cout << "Modify string characters" << std::endl;
+	std::string str4{ "Hello There" };
+	std::cout << "str4 original: " << str4 << std::endl;
+
+	str4[0] = 'B';
+	str4.at(1) = 'a';
+
+	std::cout << "str4 modified: " << str4 << std::endl;
+
 	std::cout << std::endl;
 	return 0;
 }
