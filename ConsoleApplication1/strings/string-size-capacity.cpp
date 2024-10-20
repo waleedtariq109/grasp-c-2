@@ -52,6 +52,22 @@ int main() {
 	std::cout << std::endl;
 	std::cout << "std::string can holds upto: " << str1.max_size() << " character's" << std::endl;
 
+	/*
+		We can also check how much capacity we have left by calling capacity method
+		and if string is greater then capacity then the the std::string will allocate
+		more memory based on the size of characters upto max_size
+	*/
+
+	std::cout << std::endl;
+	std::string str4{ "Hello there" };
+	std::string str5;
+
+	std::cout << "str4 capacity: " << str4.capacity() << std::endl;
+	std::cout << "str5 capacity: " << str5.capacity() << std::endl;
+
+	str4 = "The sky is blue. The grass is green. The kids are running are over the place";
+	std::cout << "str4 capacity: " << str4.capacity() << std::endl;
+
 	std::cout << std::endl;
 	return 0;
 }
