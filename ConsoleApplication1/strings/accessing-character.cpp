@@ -122,6 +122,17 @@ int main() {
 
 	std::cout << "cString: " << cString << std::endl;
 
+	//cString[0] = 'A'; // Compiler Error
+	std::cout << std::endl;
+
+	// data()
+	std::cout << "The data method" << std::endl;
+	std::string str8{ "Hi, This is data method" };
+
+	const char *data = str8.data();
+	//data[0] = 'p'; // Compiler Error
+
+
 	std::cout << std::endl;
 	return 0;
 }
