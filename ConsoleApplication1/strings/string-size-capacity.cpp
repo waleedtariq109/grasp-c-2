@@ -36,6 +36,14 @@ int main() {
 	std::cout << "str2 contains: " << str2.size() << " character's" << std::endl;
 	std::cout << "str3 contains: " << str3.size() << " character's" << std::endl;
 
+	// .length()
+	std::cout << std::endl;
+	std::cout << "std::string::length()" << std::endl;
+
+	std::cout << "str1 contains: " << str1.length() << " character's" << std::endl;
+	std::cout << "str2 contains: " << str2.length() << " character's" << std::endl;
+	std::cout << "str3 contains: " << str3.length() << " character's" << std::endl;
+
 	std::cout << std::endl;
 	return 0;
 }
