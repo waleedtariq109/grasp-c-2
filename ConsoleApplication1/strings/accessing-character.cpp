@@ -105,7 +105,22 @@ int main() {
 	backChar1 = '.';
 
 	std::cout << "str6: " << str6 << std::endl;
+	std::cout << std::endl;
 
+	/*
+		We can also have a access to underlying c-string which
+		std::strings takes care for use.
+
+		The c_str methods returns a conat char pointer to that
+		string
+	*/
+
+	std::cout << "The c_str method" << std::endl;
+	std::string str7{ "Hi, This is str::string" };
+
+	const char *cString = str7.c_str();
+
+	std::cout << "cString: " << cString << std::endl;
 
 	std::cout << std::endl;
 	return 0;
