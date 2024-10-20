@@ -67,6 +67,25 @@ int main() {
 
 	str4 = "The sky is blue. The grass is green. The kids are running are over the place";
 	std::cout << "str4 capacity: " << str4.capacity() << std::endl;
+	std::cout << std::endl;
+
+	/*
+		We can also expand the default capacity by calling the reserve method
+	*/
+
+	std::string str6{ "Hello World" };
+	std::cout << "str6: " << str6 << std::endl;
+	std::cout << "str6 capacity: " << str6.capacity() << std::endl;
+	std::cout << "str6 size: " << str6.size() << std::endl;
+	std::cout << std::endl;
+
+	str6.reserve(100); // Increasing the capacity to 100
+
+	std::cout << "str6 after reserve: " << str6 << std::endl;
+	std::cout << "str6 capacity after reserve: " << str6.capacity() << std::endl;
+	std::cout << "str6 size after reserve: " << str6.size() << std::endl;
+
+
 
 	std::cout << std::endl;
 	return 0;
