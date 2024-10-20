@@ -44,6 +44,14 @@ int main() {
 	std::cout << "str2 contains: " << str2.length() << " character's" << std::endl;
 	std::cout << "str3 contains: " << str3.length() << " character's" << std::endl;
 
+	/*
+		We can also check how many characters std::string can holds by calling
+		max_size on std::string
+	*/
+	
+	std::cout << std::endl;
+	std::cout << "std::string can holds upto: " << str1.max_size() << " character's" << std::endl;
+
 	std::cout << std::endl;
 	return 0;
 }
