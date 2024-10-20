@@ -76,6 +76,37 @@ int main() {
 	std::cout << "frontChar in str5: " << frontChar << std::endl;
 	std::cout << "backChar in str5: " << backChar << std::endl;
 
+	/*
+		The forntChar or backChar hold the copy of the returnd character
+		they don't point to the original string character and if we change
+		the frontChar and backChar then the change won't effect the original
+		str5 string.
+	*/
+
+	frontChar = 'H';
+	backChar = 'G';
+	std::cout << "print str5 after modifying the frontChar and backChar: " << str5 << std::endl;
+	std::cout << std::endl;
+
+	/*
+		If we make forntChar1 and backChar1 a reference
+		then the first character will always change whenever
+		we change the firstChar1 and same goes for backChar1
+	*/
+
+	std::string str6{ "3 Body Problem!" };
+	char& firstChar1 = str6.front();
+	char& backChar1 = str6.back();
+
+	std::cout << "firstChar1: " << firstChar1 << std::endl;
+	std::cout << "backChar1: " << backChar1 << std::endl;
+
+	firstChar1 = '2';
+	backChar1 = '.';
+
+	std::cout << "str6: " << str6 << std::endl;
+
+
 	std::cout << std::endl;
 	return 0;
 }
