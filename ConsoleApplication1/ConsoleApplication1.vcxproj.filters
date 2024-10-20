@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="strings\main.cpp">
+    <ClCompile Include="strings\concatination.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="strings\cin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\accessing-character.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -128,8 +128,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
-    <ClCompile Include="strings\main.cpp" />
+    <ClCompile Include="strings\concatination.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
