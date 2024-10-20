@@ -33,6 +33,20 @@ int main() {
 	}
 	std::cout << std::endl;
 
+	/*
+		instead of array bracket notation we can use .at() in order to
+		accessing the array characters
+	*/
+
+	std::cout << std::endl;
+	std::cout << "Using the std::string::at method" << std::endl;
+	std::string str3{ "C++: The GOAT Language" };
+	std::cout << "str3.at(): ";
+	for (size_t i{ 0 }; i < str3.size(); ++i) {
+		std::cout << str3.at(i);
+	}
+	std::cout << std::endl;
+
 	std::cout << std::endl;
 	return 0;
 }
