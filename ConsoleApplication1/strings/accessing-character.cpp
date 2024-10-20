@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-int main() {
+int main3() {
 	std::cout << std::endl;
 
 	std::string str1{ "Hello there" };

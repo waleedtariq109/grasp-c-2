@@ -24,5 +24,8 @@
     <ClCompile Include="strings\accessing-character.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="strings\string-size-capacity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
