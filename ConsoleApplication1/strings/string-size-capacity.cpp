@@ -20,13 +20,21 @@ int main() {
 	std::string str2{};
 	std::string str3;
 
-	// .empty
+	// .empty()
 	std::cout << std::endl;
 	std::cout << "std::string::empty()" << std::endl;
 	
 	std::cout << "str1 is empty: " << std::boolalpha << str1.empty() << std::endl;
 	std::cout << "str2 is empty: " << std::boolalpha << str2.empty() << std::endl;
 	std::cout << "str3 is empty: " << std::boolalpha << str3.empty() << std::endl;
+
+	// .size()
+	std::cout << std::endl;
+	std::cout << "std::string::size()" << std::endl;
+
+	std::cout << "str1 contains: " << str1.size() << " character's" << std::endl;
+	std::cout << "str2 contains: " << str2.size() << " character's" << std::endl;
+	std::cout << "str3 contains: " << str3.size() << " character's" << std::endl;
 
 	std::cout << std::endl;
 	return 0;
