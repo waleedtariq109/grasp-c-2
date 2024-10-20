@@ -128,6 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1-variables-and-datatypes\auto.cpp" />
+    <ClCompile Include="1-variables-and-datatypes\booleans.cpp" />
+    <ClCompile Include="1-variables-and-datatypes\character.cpp" />
+    <ClCompile Include="1-variables-and-datatypes\fractional-number.cpp" />
+    <ClCompile Include="1-variables-and-datatypes\integers-modifiers.cpp" />
+    <ClCompile Include="1-variables-and-datatypes\integers.cpp" />
+    <ClCompile Include="1-variables-and-datatypes\number-system.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
     <ClCompile Include="strings\concatination.cpp" />

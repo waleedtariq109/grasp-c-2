@@ -27,5 +27,26 @@
     <ClCompile Include="strings\string-size-capacity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1-variables-and-datatypes\booleans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1-variables-and-datatypes\character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1-variables-and-datatypes\fractional-number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1-variables-and-datatypes\integers-modifiers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1-variables-and-datatypes\integers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1-variables-and-datatypes\number-system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1-variables-and-datatypes\auto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
