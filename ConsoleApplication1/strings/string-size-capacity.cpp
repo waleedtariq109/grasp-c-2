@@ -84,6 +84,19 @@ int main() {
 	std::cout << "str6 after reserve: " << str6 << std::endl;
 	std::cout << "str6 capacity after reserve: " << str6.capacity() << std::endl;
 	std::cout << "str6 size after reserve: " << str6.size() << std::endl;
+	std::cout << std::endl;
+
+	// shrink_to_fit
+	std::string str7{ "Hello World" };
+	str7.reserve(100);
+
+	std::cout << "str7 capacity: " << str7.capacity() << std::endl;
+	std::cout << "str7 size: " << str7.size() << std::endl;
+
+	str7.shrink_to_fit();
+
+	std::cout << "str7 capacity: " << str7.capacity() << std::endl;
+	std::cout << "str7 size: " << str7.size() << std::endl;
 
 
 
