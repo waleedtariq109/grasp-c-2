@@ -2,7 +2,7 @@
 #include <string>
 
 // Change back to main
-int mains() {
+int main1() {
     std::cout << std::endl;
 
     // Concatenating two strings: The + operator
