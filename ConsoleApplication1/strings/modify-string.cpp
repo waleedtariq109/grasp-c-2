@@ -55,6 +55,18 @@ int main() {
 	str3.insert(5, str4);
 
 	std::cout << "str3: " << str3 << std::endl;
+	std::cout << std::endl;
+
+	/*
+		Another example of insert with c-string
+	*/
+
+	std::string str5{ "Hello" };
+	const char* str6{ " World Heatlh Organization" };
+
+	str5.insert(5, str6, 6);
+
+	std::cout << "str5: " << str5 << std::endl;
 
 
 	std::cout << std::endl;
