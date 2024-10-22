@@ -1,6 +1,10 @@
 #include <iostream>
 
-static int Max(int num1, int num2); // Function Declaration or Prototype
+/*
+	While defining the prototype the param name's are not required
+*/
+
+static int Max(int, int); // Function Declaration or Prototype.
 
 int main() {
 	std::cout << "Function Declaration and Defination" << std::endl;
