@@ -77,6 +77,14 @@ int main() {
 	str7.erase(11, str7.size()-12);
 	std::cout << "str7: " << str7 << std::endl;
 
+	std::cout << std::endl;
+
+	str7 = "Hello World is a message used to start off things when we learn programming!";
+	str7.erase(); // Erase everything
+
+	std::cout << "str7: " << str7 << std::endl;
+
+	std::cout << std::endl;
 
 	std::cout << std::endl;
 }
