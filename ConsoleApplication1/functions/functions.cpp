@@ -6,11 +6,25 @@
 
 static void enterBar(unsigned int age) {
 	if (age >= 18) {
-		std::cout << "You are " << age << " years old. You can proceed." << std::endl;
+		std::cout << "You are " << age << " years old. You can proceed" << std::endl;
 	}
 	else {
-		std::cout << "You cannot enter. Come again when you are 18." << std::endl;
+		std::cout << "You cannot enter" << std::endl;
 	}
+}
+
+static int Max(int num1, int num2) {
+	if (num1 > num2) {
+		return num1;
+	}
+	else {
+		return num2;
+	}
+
+}
+
+static void sayHello() {
+	std::cout << "Hello" << std::endl;
 }
 
 int main() {
@@ -27,6 +41,14 @@ int main() {
 		*/
 		enterBar(static_cast<int>(i));
 	}
+	std::cout << std::endl;
+
+	int result = Max(10,20);
+	std::cout << "result: " << result << std::endl;
+
+	std::cout << std::endl;
+
+	sayHello();
 
 	return 0;
 }
