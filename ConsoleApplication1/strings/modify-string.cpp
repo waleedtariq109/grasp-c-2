@@ -86,5 +86,27 @@ int main() {
 
 	std::cout << std::endl;
 
+	/*
+		std::string::push_bach()
+
+		This will push the character at the last of the string
+	*/
+
+	std::string str8{ "Hello World" };
+	str8.push_back('!'); // Push character at last
+
+	std::cout << "str8: " << str8 << std::endl;
+
+	/*
+		std::string::pop_back()
+		
+		This will remove the last character from string
+	*/
+
+	std::string str9{ "Hello World!!" };
+	str9.pop_back(); // Remove the last character
+
+	std::cout << "str9: " << str9 << std::endl;
+
 	std::cout << std::endl;
 }
