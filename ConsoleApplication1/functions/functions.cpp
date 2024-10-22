@@ -27,7 +27,7 @@ static void sayHello() {
 	std::cout << "Hello" << std::endl;
 }
 
-int main() {
+static int Func() {
 	enterBar(18);
 	std::cout << std::endl;
 
