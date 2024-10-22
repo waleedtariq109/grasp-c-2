@@ -133,6 +133,7 @@
     <ClCompile Include="strings\comparingString.cpp" />
     <ClCompile Include="strings\concatination.cpp" />
     <ClCompile Include="strings\modify-string.cpp" />
+    <ClCompile Include="strings\std-compare.cpp" />
     <ClCompile Include="strings\string-size-capacity.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

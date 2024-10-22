@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-int main() {
+static int comparingString() {
 	std::cout << std::endl;
 
 	std::cout << "Comparing Strings" << std::endl;
