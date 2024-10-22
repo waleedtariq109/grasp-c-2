@@ -36,5 +36,8 @@
     <ClCompile Include="strings\std-compare.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="functions\functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

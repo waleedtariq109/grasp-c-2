@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-int main() {
+static int compareString() {
 
   // Compare (1)
   std::string str1{ "Hello" };

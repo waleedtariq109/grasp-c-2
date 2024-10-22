@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="functions\functions.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
     <ClCompile Include="strings\comparingString.cpp" />
