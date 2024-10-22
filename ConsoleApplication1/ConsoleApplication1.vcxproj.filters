@@ -42,5 +42,16 @@
     <ClCompile Include="functions\declaration-defination.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="functions\compare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\linker-stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions\compare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

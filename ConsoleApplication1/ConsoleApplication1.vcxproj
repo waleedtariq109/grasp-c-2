@@ -128,8 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="functions\compare.cpp" />
     <ClCompile Include="functions\declaration-defination.cpp" />
     <ClCompile Include="functions\functions.cpp" />
+    <ClCompile Include="functions\linker-stage.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
     <ClCompile Include="strings\comparingString.cpp" />
@@ -137,6 +139,9 @@
     <ClCompile Include="strings\modify-string.cpp" />
     <ClCompile Include="strings\std-compare.cpp" />
     <ClCompile Include="strings\string-size-capacity.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions\compare.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
