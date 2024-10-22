@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
+    <ClCompile Include="strings\comparingString.cpp" />
     <ClCompile Include="strings\concatination.cpp" />
     <ClCompile Include="strings\modify-string.cpp" />
     <ClCompile Include="strings\string-size-capacity.cpp" />
