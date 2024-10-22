@@ -67,6 +67,15 @@ int main() {
 	str5.insert(5, str6, 6);
 
 	std::cout << "str5: " << str5 << std::endl;
+	std::cout << std::endl;
+
+	/*
+		std::string::erase()
+	*/
+
+	std::string str7{ "Hello World is a message used to start off things when we learn programming!" };
+	str7.erase(11, str7.size()-12);
+	std::cout << "str7: " << str7 << std::endl;
 
 
 	std::cout << std::endl;
