@@ -6,7 +6,7 @@
 
 static int Max(int, int); // Function Declaration or Prototype.
 
-int main() {
+static int Prototype() {
 	std::cout << "Function Declaration and Defination" << std::endl;
 
 	int a = 20;
