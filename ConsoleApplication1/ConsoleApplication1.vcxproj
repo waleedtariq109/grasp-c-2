@@ -137,6 +137,7 @@
     <ClCompile Include="functions\pass-by-const-value.cpp" />
     <ClCompile Include="functions\pass-by-pointer-const.cpp" />
     <ClCompile Include="functions\pass-by-pointer.cpp" />
+    <ClCompile Include="functions\pass-by-reference.cpp" />
     <ClCompile Include="functions\pass-by-value.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
