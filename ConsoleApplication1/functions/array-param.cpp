@@ -20,7 +20,7 @@ static double totalSum(double arr[], size_t count) {
 	return sum;
 }
 
-int main() {
+static int arrayParam() {
 	double totalAmount[]{ 23.76, 98.76,65.83,11.9,54.09 };
 	double result = totalSum(totalAmount, std::size(totalAmount));
 
