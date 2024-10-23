@@ -132,6 +132,7 @@
     <ClCompile Include="functions\declaration-defination.cpp" />
     <ClCompile Include="functions\functions.cpp" />
     <ClCompile Include="functions\linker-stage.cpp" />
+    <ClCompile Include="functions\operations.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
     <ClCompile Include="strings\comparingString.cpp" />
@@ -142,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h" />
+    <ClInclude Include="functions\operations.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

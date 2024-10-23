@@ -48,9 +48,15 @@
     <ClCompile Include="functions\linker-stage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="functions\operations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functions\operations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
