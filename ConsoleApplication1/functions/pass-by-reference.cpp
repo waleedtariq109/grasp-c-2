@@ -4,7 +4,7 @@ static void Increment(int& value) {
 	++value;
 }
 
-int main() {
+static int passByRef() {
 	int num{ 99 };
 	std::cout << "num: " << num << std::endl;
 	Increment(num);
