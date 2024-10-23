@@ -2,7 +2,7 @@
 #include "compare.h" // preprocessor
 #include "operations.h" // preprocessor
 
-int main() {
+static int Linker() {
 	int num1 = 65;
 	int num2 = 76;
 
