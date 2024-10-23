@@ -14,7 +14,7 @@ static void sayAge(const int* age) {
 	std::cout << "age: (function) " << *age << std::endl;
 }
 
-int main() {
+static int ptrToConstInt() {
 	int age{ 23 };
 	std::cout << "age: (before): " << age << std::endl; // 23
 	sayAge(&age); // pass the pointer										// 23
