@@ -14,7 +14,7 @@ static void printAge(int age) {
 	std::cout << "&age: " << &age << std::endl;
 }
 
-int main() {
+static int PassByValue() {
 	int personAge{ 23 };
 	std::cout << "Before Calling function: " << personAge << std::endl;
 	printAge(personAge);

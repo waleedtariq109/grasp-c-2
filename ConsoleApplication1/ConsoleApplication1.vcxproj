@@ -133,6 +133,7 @@
     <ClCompile Include="functions\functions.cpp" />
     <ClCompile Include="functions\linker-stage.cpp" />
     <ClCompile Include="functions\operations.cpp" />
+    <ClCompile Include="functions\pass-by-const-value.cpp" />
     <ClCompile Include="functions\pass-by-value.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
