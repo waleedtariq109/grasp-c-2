@@ -141,6 +141,7 @@
     <ClCompile Include="functions\pass-by-pointer.cpp" />
     <ClCompile Include="functions\pass-by-reference.cpp" />
     <ClCompile Include="functions\pass-by-value.cpp" />
+    <ClCompile Include="functions\sized-array-by-ref.cpp" />
     <ClCompile Include="functions\sized-array-param.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />

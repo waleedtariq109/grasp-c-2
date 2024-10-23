@@ -21,7 +21,7 @@ static double totalSum(double arr[2], size_t count) {
 	return sum;
 }
 
-int main() {
+static int sizedArray() {
 	double totalAmount[]{ 23.76, 98.76,65.23,11.9,54.09 };
 	double result = totalSum(totalAmount, std::size(totalAmount));
 
