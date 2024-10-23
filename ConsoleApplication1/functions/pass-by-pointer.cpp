@@ -5,7 +5,7 @@ static void sayAge(int* age) {
 	std::cout << "age: (function) " << *age << std::endl;
 }
 
-int main() {
+static int passByPointer() {
 	int age{ 23 };
 	std::cout << "age: (before): " << age << std::endl; // 23
 	sayAge(&age); // pass the pointer										// 24
