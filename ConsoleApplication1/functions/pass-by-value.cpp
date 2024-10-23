@@ -11,6 +11,7 @@
 static void printAge(int age) {
 	++age;
 	std::cout << "age - in function: " << age << std::endl;
+	std::cout << "&age: " << &age << std::endl;
 }
 
 int main() {
@@ -18,4 +19,9 @@ int main() {
 	std::cout << "Before Calling function: " << personAge << std::endl;
 	printAge(personAge);
 	std::cout << "After Calling function: " << personAge << std::endl;
+
+	std::cout << std::endl;
+
+	std::cout << "&age: " << &personAge << std::endl;
+
 }
