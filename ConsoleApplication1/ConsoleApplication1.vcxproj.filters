@@ -81,6 +81,9 @@
     <ClCompile Include="functions\sized-array-by-ref.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="functions\pass-multi-dimension-array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">

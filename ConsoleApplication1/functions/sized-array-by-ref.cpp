@@ -8,7 +8,7 @@ static double arraySum(const double(&arr)[10]) {
 	return sum;
 }
 
-int main() {
+static int sizedArrayRef() {
 	double array[]{ 2.22,3.44,3.44,6.55,45.5,4.76,55.6,15.75,7.88,54.4 };
 	double result = arraySum(array);
 
