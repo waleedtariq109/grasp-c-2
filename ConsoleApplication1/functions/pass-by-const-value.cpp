@@ -5,7 +5,7 @@ static void sayAge(const int age) {
 	std::cout << "age: " << age << std::endl;
 }
 
-int main() {
+static int passByConstInt() {
 
 	int age{ 23 };
 
