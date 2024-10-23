@@ -1,7 +1,7 @@
 #include <iostream>
 
 static void sayAge(const int* age) {
-	//++(*age); // Compiler Error becuase it's a const pointer
+	//++(*age); // Compiler Error becuase it's a pointer to const
 
 	/*
 		We cannot modify the value but we can make the point to point somewhere else
