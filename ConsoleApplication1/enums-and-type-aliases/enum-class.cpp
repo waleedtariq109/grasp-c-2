@@ -50,7 +50,7 @@ enum RandomDay {
 	Monday, Wednesday, Saturday
 };
 
-int main() {
+static int enumsClass() {
 	// Class enums
 	Month month = Month::Jan;
 	Month1 month1 = Month1::Jan;

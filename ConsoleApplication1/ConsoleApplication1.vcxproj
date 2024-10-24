@@ -131,6 +131,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="enums-and-type-aliases\enum-class.cpp" />
+    <ClCompile Include="enums-and-type-aliases\using-enum.cpp" />
     <ClCompile Include="functions\array-param.cpp" />
     <ClCompile Include="functions\compare.cpp" />
     <ClCompile Include="functions\const-ptr-to-const.cpp" />
