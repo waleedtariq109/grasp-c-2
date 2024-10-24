@@ -5,7 +5,7 @@ static void compute(int = 23, double = 98.23, int = 2001);
 
 // Declaration with param name will also work
 
-int main() {
+static int defaultParamValue() {
 	compute();
 }
 
