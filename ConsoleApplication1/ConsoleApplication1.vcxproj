@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="args-to-main\use-main-args.cpp" />
     <ClCompile Include="enums-and-type-aliases\enum-class.cpp" />
     <ClCompile Include="enums-and-type-aliases\type-alias.cpp" />
     <ClCompile Include="enums-and-type-aliases\using-enum.cpp" />

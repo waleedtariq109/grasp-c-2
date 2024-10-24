@@ -114,6 +114,9 @@
     <ClCompile Include="enums-and-type-aliases\type-alias.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="args-to-main\use-main-args.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">

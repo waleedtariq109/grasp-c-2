@@ -3,7 +3,7 @@
 typedef unsigned long long int LongInt; // Old Way
 using LongInt1 = unsigned long long int; // Modern C++ Way
 
-int main() {
+static int typeAlias() {
 	unsigned long long int largeNum{37498728};
 	LongInt largeNum1{ 44324938 };
 	LongInt1 largeNum2{ 332489327 };
