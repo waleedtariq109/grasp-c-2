@@ -4,7 +4,7 @@ static consteval int getValue(int multiplier) {
 	return 3 * multiplier;
 }
 
-int main() {
+static int constEvalFunction() {
 	/*
 	* consteval function garauntee that function will evaluated at compile-time
 	*/

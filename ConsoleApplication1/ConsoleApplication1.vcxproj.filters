@@ -105,6 +105,9 @@
     <ClCompile Include="functions\consteval-function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="enums-and-type-aliases\enum-class.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">
