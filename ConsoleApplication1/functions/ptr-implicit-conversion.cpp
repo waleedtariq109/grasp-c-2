@@ -4,7 +4,7 @@ static void printSum(int* param1, int* param2) {
 	std::cout << "sum: " << (*param1 + *param2) << std::endl;
 }
 
-int main() {
+static int ptrImplicitConversion() {
 	int a{ 22 };
 	int b{ 87 };
 

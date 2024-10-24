@@ -148,6 +148,7 @@
     <ClCompile Include="functions\ptr-implicit-conversion.cpp" />
     <ClCompile Include="functions\sized-array-by-ref.cpp" />
     <ClCompile Include="functions\sized-array-param.cpp" />
+    <ClCompile Include="functions\string-view-param.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
     <ClCompile Include="strings\comparingString.cpp" />
