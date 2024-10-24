@@ -135,6 +135,7 @@
     <ClCompile Include="functions\default-args.cpp" />
     <ClCompile Include="functions\functions.cpp" />
     <ClCompile Include="functions\implicit-conversion.cpp" />
+    <ClCompile Include="functions\implicit-ref-conversion.cpp" />
     <ClCompile Include="functions\linker-stage.cpp" />
     <ClCompile Include="functions\operations.cpp" />
     <ClCompile Include="functions\pass-by-const-ref.cpp" />

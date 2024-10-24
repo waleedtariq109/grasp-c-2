@@ -90,6 +90,9 @@
     <ClCompile Include="functions\implicit-conversion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="functions\implicit-ref-conversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">
