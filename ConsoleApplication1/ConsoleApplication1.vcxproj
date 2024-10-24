@@ -133,6 +133,7 @@
     <ClCompile Include="functions\array-param.cpp" />
     <ClCompile Include="functions\compare.cpp" />
     <ClCompile Include="functions\const-ptr-to-const.cpp" />
+    <ClCompile Include="functions\constexpr-func.cpp" />
     <ClCompile Include="functions\declaration-defination.cpp" />
     <ClCompile Include="functions\default-args.cpp" />
     <ClCompile Include="functions\functions.cpp" />
