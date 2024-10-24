@@ -1,5 +1,17 @@
 #include <iostream>
 
-int main() {
+static void printSum(int* param1, int* param2) {
+	std::cout << "sum: " << (*param1 + *param2) << std::endl;
+}
 
+int main() {
+	int a{ 22 };
+	int b{ 87 };
+
+	double x{ 93.4 };
+	double y{ 82.98 };
+
+	printSum(&a, &b);
+	//printSum(&x, &y); 
+	// Compiler Error because we pass the address of double to int pointer because we pass memory address that's why implicit conversion will happen
 }
