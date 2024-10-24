@@ -27,7 +27,7 @@ static std::string_view month_to_string(Month month) {
 }
 
 
-int main() {
+static int usingEnum() {
 
   Month month{ Month::Apr };
   std::cout << "month : " << month_to_string(month) << std::endl;
