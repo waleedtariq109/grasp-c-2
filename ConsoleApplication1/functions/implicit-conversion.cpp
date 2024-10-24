@@ -9,7 +9,7 @@ static void printSum(int param1, int param2) {
 	std::cout << "sum: " << sum << std::endl;
 }
 
-int main() {
+static int implicitConversion() {
 	int a{ 22 };
 	int b{ 87 };
 
