@@ -13,5 +13,12 @@ int main() {
 
 	printSum(&a, &b);
 	//printSum(&x, &y); 
-	// Compiler Error because we pass the address of double to int pointer because we pass memory address that's why implicit conversion will happen
+	// Compiler Error because we pass the address of double to int pointer because
+	// we pass memory address that's why implicit conversion will happen.
+	/*
+		The other reason is that if the compiler, let's say, allows passing a double 
+		pointer to an int pointer parameter and we perform pointer arithmetic, the 
+		compiler won't know how many bytes to add, etc. That's why compiler will not
+		allow this.
+	*/
 }
