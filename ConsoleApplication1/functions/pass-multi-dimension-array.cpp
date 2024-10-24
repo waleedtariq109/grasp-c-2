@@ -12,7 +12,7 @@ static double sumMultiDimensionalArray(const double arr[][3], size_t size) {
 	return sum;
 }
 
-int main() {
+static int mtdArray() {
 	double multiDimensionalArray[][3]{
 		{1.22,2.44,7.88},
 		{9.8,8.6,47.8},
