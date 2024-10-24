@@ -145,6 +145,7 @@
     <ClCompile Include="functions\pass-by-reference.cpp" />
     <ClCompile Include="functions\pass-by-value.cpp" />
     <ClCompile Include="functions\pass-multi-dimension-array.cpp" />
+    <ClCompile Include="functions\ptr-implicit-conversion.cpp" />
     <ClCompile Include="functions\sized-array-by-ref.cpp" />
     <ClCompile Include="functions\sized-array-param.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />

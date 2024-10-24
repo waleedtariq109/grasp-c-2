@@ -9,7 +9,7 @@ static void increment(int& param) {
 	std::cout << "increment: " << param << std::endl;
 }
 
-int main() {
+static int implicit() {
 	double variable{ 22.44 };
 	int var1{ 33 };
 
