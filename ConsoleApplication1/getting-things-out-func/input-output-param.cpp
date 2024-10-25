@@ -28,6 +28,10 @@ static void maxDouble(double param1, double param2, double& output) {
 	}
 }
 
+static void add(int param1, int param2, int* output) {
+	*output = param1 + param2;
+}
+
 int main() {
 	std::string_view str1{ "Waleed Tariq" };
 	std::string_view str2{ "Zeeshan Siddique" };
@@ -41,11 +45,18 @@ int main() {
 	double doubleVar2{ 483.43 };
 	double doubleOutput{};
 
+	int var1{ 34 };
+	int var2{ 45 };
+	int intPtrValue{};
+	int* intPtr{ &intPtrValue };
+
 	maxStr(str1, str2, strOutput);
 	maxInt(intVar1, intVar2, intOutput);
 	maxDouble(doubleVar1, doubleVar2, doubleOutput);
+	add(var1, var2, intPtr);
 
 	std::cout << "strOutput: " << strOutput << std::endl;
 	std::cout << "intOutput: " << intOutput << std::endl;
 	std::cout << "doubleOutput: " << doubleOutput << std::endl;
+	std::cout << "intPtr: " << *intPtr << std::endl;
 }
