@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(int argc, char **argv) {
+static int argsToMain(int argc, char **argv) {
 	std::cout << "We have total " << argc << " arguments in main" << std::endl;
 	std::cout << std::endl;
 	for (size_t i{ 0 }; i < argc; ++i) {

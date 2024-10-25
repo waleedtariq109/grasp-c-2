@@ -117,6 +117,9 @@
     <ClCompile Include="args-to-main\use-main-args.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="getting-things-out-func\input-output-param.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">
