@@ -28,7 +28,7 @@ static double maxDouble(double param1, double param2) {
 	}
 }
 
-int main() {
+static int returnByValue() {
 	std::string_view str1{ "Waleed Tariq" };
 	std::string_view str2{ "Zeeshan Siddique" };
 
