@@ -28,7 +28,7 @@ static void maxDouble(double param1, double param2, double& output) {
 	}
 }
 
-int main() {
+static int RefPtrParam() {
 	std::string_view str1{ "Waleed Tariq" };
 	std::string_view str2{ "Zeeshan Siddique" };
 	std::string_view strOutput;

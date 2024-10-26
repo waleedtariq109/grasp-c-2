@@ -158,6 +158,7 @@
     <ClCompile Include="functions\sized-array-param.cpp" />
     <ClCompile Include="functions\string-view-param.cpp" />
     <ClCompile Include="getting-things-out-func\input-output-param.cpp" />
+    <ClCompile Include="getting-things-out-func\returning-by-value.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
     <ClCompile Include="strings\comparingString.cpp" />
