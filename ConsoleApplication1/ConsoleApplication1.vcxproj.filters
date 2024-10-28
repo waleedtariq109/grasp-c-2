@@ -132,7 +132,7 @@
     <ClCompile Include="getting-things-out-func\array-element-ptr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="getting-things-out-func\auto-type-deduction.cpp">
+    <ClCompile Include="getting-things-out-func\std-opt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
