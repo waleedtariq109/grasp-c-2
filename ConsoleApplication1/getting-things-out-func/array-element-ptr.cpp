@@ -1,5 +1,21 @@
 #include <iostream>
 
-int main(int argc, char **argv) {
+static const double* findMaxAddress(const double arr[], size_t size) {
+	size_t maxIndex{};
+	double maxValue{};
+	for (size_t i{ 0 }; i < size; ++i) {
+		if (arr[i] > maxValue) {
+			maxValue = arr[i];
+			maxIndex = i;
+		}
+	}
+	return &arr[maxIndex];
+}
 
+int main(int argc, char **argv) {
+	double arr[]{ 1.22,34.56,99.33,112.4,33.56 };
+	const double* returnedPtr = findMaxAddress(arr, std::size(arr));
+	
+	std::cout << "max address: " << returnedPtr << std::endl;
+	std::cout << "max address: value: " << *returnedPtr << std::endl;
 }
