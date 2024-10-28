@@ -1,7 +1,7 @@
 #include <iostream>
 #include <optional>
 
-int main(int argc, char **argv) {
+static int stdOptional(int argc, char **argv) {
 	// Initialize with value
 	std::optional<int> age{ 23 };
 	std::optional<double> percentage{ 87.98 };

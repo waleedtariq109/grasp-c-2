@@ -135,6 +135,9 @@
     <ClCompile Include="getting-things-out-func\std-opt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="function-overloading\overloading-with-diff-param.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">
