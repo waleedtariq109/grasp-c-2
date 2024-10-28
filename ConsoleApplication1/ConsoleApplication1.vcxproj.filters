@@ -132,6 +132,9 @@
     <ClCompile Include="getting-things-out-func\array-element-ptr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="getting-things-out-func\auto-type-deduction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">

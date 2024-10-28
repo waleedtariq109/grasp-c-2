@@ -12,7 +12,7 @@ static const double* findMaxAddress(const double arr[], size_t size) {
 	return &arr[maxIndex];
 }
 
-int main(int argc, char **argv) {
+static int arrElementPtr(int argc, char **argv) {
 	double arr[]{ 1.22,34.56,99.33,112.4,33.56 };
 	const double* returnedPtr = findMaxAddress(arr, std::size(arr));
 	
