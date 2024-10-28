@@ -14,7 +14,7 @@ static int* localPtrReturn(int a, int b) {
 	return &result;
 }
 
-int main() {
+static int returnByPtr() {
 	int x{ 9 };
 	int y{ 10 };
 
