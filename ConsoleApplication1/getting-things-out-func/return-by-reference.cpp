@@ -25,7 +25,7 @@ static int& max_input_by_value(int a, int b)
   }
 }
 
-int main() {
+static int returnByReference() {
   int x{ 14 };
   int y{ 9 };
 
