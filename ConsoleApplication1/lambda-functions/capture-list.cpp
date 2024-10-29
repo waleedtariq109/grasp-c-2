@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+static int captureList() {
 	/*
 		We cannot access the global/parent scope variables in lambda
 		so in order to access we have to specify them in a capture
