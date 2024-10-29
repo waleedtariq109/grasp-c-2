@@ -25,7 +25,7 @@ T multiply(T value1, T value2) {
 	return value1 * value2;
 }
 
-int main() {
+static int functionTemplate() {
 	int intVar1{ 32 };
 	int intVar2{ 87 };
 	int intVar3{ 5 };
