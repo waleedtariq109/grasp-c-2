@@ -138,6 +138,7 @@
     <ClCompile Include="function-overloading\overloading-with-diff-param.cpp" />
     <ClCompile Include="function-overloading\ptr-param.cpp" />
     <ClCompile Include="function-overloading\reference-ptr.cpp" />
+    <ClCompile Include="function-template\function-template.cpp" />
     <ClCompile Include="functions\array-param.cpp" />
     <ClCompile Include="functions\compare.cpp" />
     <ClCompile Include="functions\const-ptr-to-const.cpp" />
