@@ -26,7 +26,7 @@ static void sayMyName(std::string& name) {
 //	std::cout << "You name is (value param): " << name << std::endl;
 //}
 
-int main() {
+static int overloadingByReference() {
 	std::string name{ "Waleed Tariq" };
 	sayMyName(name);
 }
