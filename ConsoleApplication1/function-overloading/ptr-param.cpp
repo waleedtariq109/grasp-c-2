@@ -37,7 +37,7 @@ static int max(int* arr, size_t count) {
 	return maxNumber;
 }
 
-int main() {
+static int onerloadingPtrParam() {
 	int intArr[]{ 33,44,37,99,66 };
 	double doubleArr[]{ 22.98,44.5,99.76,87.6,87.34 };
 

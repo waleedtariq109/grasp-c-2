@@ -141,6 +141,9 @@
     <ClCompile Include="function-overloading\ptr-param.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="function-overloading\reference-ptr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">
