@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+static int captureAll() {
 	// Capture everything by value in lambda function
 	
 	/*
