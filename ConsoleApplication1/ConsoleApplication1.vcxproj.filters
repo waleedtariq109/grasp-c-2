@@ -138,6 +138,9 @@
     <ClCompile Include="function-overloading\overloading-with-diff-param.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="function-overloading\ptr-param.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">

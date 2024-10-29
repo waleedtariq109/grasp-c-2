@@ -2,18 +2,21 @@
 #include <string_view>
 
 static int max(int a, int b) {
+	std::cout << "int overload function called" << std::endl;
 	return a > b ? a : b;
 }
 
 static double max(double a, double b) {
+	std::cout << "double overload function called" << std::endl;
 	return a > b ? a : b;
 }
 
 static std::string_view max(std::string_view a, std::string_view b) {
+	std::cout << "std::string_view overload function called" << std::endl;
 	return a > b ? a : b;
 }
 
-int main() {
+static int functionOverloading() {
 	int intVar1{ 98 };
 	int intVar2{ 76 };
 

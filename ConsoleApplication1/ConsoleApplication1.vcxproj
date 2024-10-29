@@ -135,6 +135,7 @@
     <ClCompile Include="enums-and-type-aliases\type-alias.cpp" />
     <ClCompile Include="enums-and-type-aliases\using-enum.cpp" />
     <ClCompile Include="function-overloading\overloading-with-diff-param.cpp" />
+    <ClCompile Include="function-overloading\ptr-param.cpp" />
     <ClCompile Include="functions\array-param.cpp" />
     <ClCompile Include="functions\compare.cpp" />
     <ClCompile Include="functions\const-ptr-to-const.cpp" />
