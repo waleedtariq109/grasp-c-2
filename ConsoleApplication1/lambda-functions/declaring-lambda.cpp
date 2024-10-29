@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+static int declaringLambda() {
 	// Declare a lambda function and call it by name
 	auto lambdaFunction = []() {
 		std::cout << "Lambda function call it by name" << std::endl;

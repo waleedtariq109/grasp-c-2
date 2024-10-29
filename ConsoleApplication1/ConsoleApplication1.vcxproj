@@ -167,6 +167,7 @@
     <ClCompile Include="getting-things-out-func\return-by-pointer.cpp" />
     <ClCompile Include="getting-things-out-func\return-by-reference.cpp" />
     <ClCompile Include="getting-things-out-func\returning-by-value.cpp" />
+    <ClCompile Include="lambda-functions\capture-list.cpp" />
     <ClCompile Include="lambda-functions\declaring-lambda.cpp" />
     <ClCompile Include="strings\accessing-character.cpp" />
     <ClCompile Include="strings\cin.cpp" />
