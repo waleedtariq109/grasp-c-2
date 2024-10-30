@@ -5,7 +5,7 @@ T maximum(T param1, T param2) {
 	return param1 > param2 ? param1 : param2;
 }
 
-int main() {
+static int typeDeduction() {
 	int intVar1{ 98 };
 	int intVar2{ 87 };
 
