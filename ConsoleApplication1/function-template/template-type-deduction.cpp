@@ -27,4 +27,25 @@ int main() {
 	maximum(doubleVar1, doubleVar2); // Implicit deduction to double
 	maximum(stringVar1, stringVar2); // Implicit deduction to std::string
 
+	/*
+		With implicit deduction we cannot pass arguments of different types
+		becuase the compiler deduce the types based on types which we pass
+		as an arguments.
+
+		In order to fix that we have to explicitly set the return type in order to pass
+		datatypes of different types
+	*/
+
+	/*
+		Explicit type deduction
+	*/
+
+	double result = maximum<double>(intVar1, doubleVar1);
+	std::cout << "result: (Explicit type deduction): " << result << std::endl;
+
+	/*
+		NOTE: If we set the return type int and pass double the as one of the argument
+		then the compiler will convert the double to int and we may loss some data
+	*/
+
 }
