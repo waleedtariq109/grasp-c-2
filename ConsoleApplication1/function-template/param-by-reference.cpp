@@ -6,7 +6,7 @@ T maximumByValue(T param1, T param2);
 template <typename T>
 T& maximumByReference(T& param1, T& param2);
 
-int main() {
+static int paramByRefToTemplateFunction() {
 	double val1{ 87.99 };
 	double val2{ 76.98 };
 

@@ -165,6 +165,9 @@
     <ClCompile Include="function-template\param-by-reference.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="function-template\template-specialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">
