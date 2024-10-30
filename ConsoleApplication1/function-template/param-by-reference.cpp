@@ -1,5 +1,32 @@
 #include <iostream>
 
-int main() {
+template <typename T>
+T maximumByValue(T param1, T param2);
 
+int main() {
+	double val1{ 87.99 };
+	double val2{ 76.98 };
+
+	std::cout << "&val1: " << &val1 << std::endl;
+	auto result = maximumByValue(val1, val2); // pass param by reference
+
+	std::cout << std::endl;
+
+	std::cout << "result: " << result << std::endl;
+
+}
+
+template <typename T>
+T maximumByValue(T param1, T param2) {
+	/*
+		Receiving the param as value so the changes won't effect the
+		original variable.
+	*/
+	std::cout << "&param1: " << &param1 << std::endl;
+	if (param1 > param2) {
+		return param1;
+	}
+	else {
+		return param2;
+	}
 }
