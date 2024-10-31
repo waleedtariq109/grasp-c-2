@@ -12,7 +12,7 @@ const char* maximum<const char*>(const char* charPtr1, const char* charPtr2) {
 	return std::strcmp(charPtr1, charPtr2) > 0 ? charPtr1 : charPtr2;
 }
 
-int main() {
+static int templateSpecialization() {
 	int intVar1{ 98 };
 	int intVar2{ 89 };
 	
