@@ -140,6 +140,7 @@
     <ClCompile Include="function-overloading\reference-ptr.cpp" />
     <ClCompile Include="function-template\func-temp-overload.cpp" />
     <ClCompile Include="function-template\function-template.cpp" />
+    <ClCompile Include="function-template\multi-param-template.cpp" />
     <ClCompile Include="function-template\param-by-reference.cpp" />
     <ClCompile Include="function-template\template-specialization.cpp" />
     <ClCompile Include="function-template\template-type-deduction.cpp" />

@@ -171,6 +171,9 @@
     <ClCompile Include="function-template\func-temp-overload.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="function-template\multi-param-template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">
