@@ -18,7 +18,7 @@ T* maximum(T* val1, T* val2) {
 	return *val1 > *val2 ? val1 : val2;
 }
 
-int main() {
+static int templateOverload() {
 	const char* cStr1{ "Wild" };
 	const char* cStr2{ "Animal" };
 
