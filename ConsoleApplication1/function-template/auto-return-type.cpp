@@ -13,7 +13,7 @@ auto maximum(T a, P b) {
 	return a > b ? a : b;
 }
 
-int main() {
+static int autoReturnType() {
 	int a = 98;
 	double b = 98.99;
 
