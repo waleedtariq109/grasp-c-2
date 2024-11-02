@@ -11,6 +11,13 @@ int main() {
 	int a = 8;
 	float b = 87.9f;
 
+	auto fn = []<typename T>(T param) {
+		static_assert(std::is_floating_point<T>::value, "fn lambda only with called with floating point");
+		std::cout << param << std::endl;
+	};
+
+	fn(89.9);
+
 	printInteger(a);
 
 }
