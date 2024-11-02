@@ -22,7 +22,7 @@ void func(T param) {
 	}
 }
 
-int main() {
+static int constexprIf() {
 	int val1 = 87;
 	double val2 = 87.78;
 
