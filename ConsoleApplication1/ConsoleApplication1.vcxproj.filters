@@ -180,6 +180,9 @@
     <ClCompile Include="function-template\traits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="function-template\constexpr-if.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\compare.h">

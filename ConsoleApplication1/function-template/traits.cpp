@@ -7,7 +7,7 @@ void printInteger(T value) {
 	std::cout << "value: " << value << std::endl;
 }
 
-int main() {
+static int typeTraits() {
 	int a = 8;
 	float b = 87.9f;
 
