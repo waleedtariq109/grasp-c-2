@@ -10,7 +10,7 @@ ReturnType maximum(T param1, P param2) {
 	return param1 > param2 ? param1 : param2;
 }
 
-int main() {
+static int multiParamTemplate() {
 	int val1 = 98;
 	int val2 = 67;
 
